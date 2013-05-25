@@ -14,6 +14,7 @@ meta-spec:
 name: Eponymous-Hash
 requires:
   PadWalker: 1.96
+  Scalar::Util: 0
 resources:
   repository: git://github.com/tempire/eponymous-hash.git
-version: 0.01
+version: 0.02

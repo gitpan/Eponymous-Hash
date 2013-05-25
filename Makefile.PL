@@ -20,10 +20,11 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Eponymous::Hash",
   "PREREQ_PM" => {
-    "PadWalker" => "1.96"
+    "PadWalker" => "1.96",
+    "Scalar::Util" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
